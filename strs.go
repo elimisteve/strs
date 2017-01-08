@@ -10,7 +10,7 @@ func Contains(slice []string, str string) bool {
 			return true
 		}
 	}
-	false
+	return false
 }
 
 // Or returns the first non-empty string in slice, otherwise returns
